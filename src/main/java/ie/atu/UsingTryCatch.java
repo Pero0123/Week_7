@@ -9,11 +9,11 @@ public class UsingTryCatch {
         String input = myscan.nextLine();
 
         //Parse the input to an integer
-        int muNum= Integer.parseInt(Input);
+        int myNum= Integer.parseInt(input);
 
         //check if the number is between 0 and 9
         if (myNum>= 0 && myNum<=9){
-            System.out.printLn("You entered " + myNum);
+            System.out.println("You entered " + myNum);
         }
         else{
             System.out.println("Not a valid number");
